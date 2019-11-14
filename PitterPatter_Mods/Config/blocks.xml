@@ -1,3 +1,4 @@
+<!-- turned electricwirerelay into wireless junction box -->
 <configs>
 	<append xpath="/blocks/block[@name='electricwirerelay']">
 			<property name="Class" value="ElectricWire"/>
