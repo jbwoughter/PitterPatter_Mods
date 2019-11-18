@@ -2404,7 +2404,7 @@
         <recipe name="Zhang Handle" count="1" craft_time="2" craft_area="workbench">
             <ingredient name="Walnut Wood Plank" count="5"/>
         </recipe>
-		<recipe name="Grape Seed" count="1' craft_time="2">
+		<recipe name="Grape Seed" count="1" craft_time="2">
 			<ingredient name="Grape" count="4"/>
 		</recipe>
         <recipe name="Barley Seed" count="1" craft_time="2">
