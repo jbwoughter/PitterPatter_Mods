@@ -217,15 +217,14 @@
             <property name="name" value="Farming Tools"/>
             <property name="subtitle" value="Tools"/>
             <property name="group_name" value="Farming Crops"/>
-            <property name="description" value="Learn how to plant crops and then receive Farm Life crop seeds. Farming requires a Hoe and farmable dirt. (Note: Must be in a forest biome). Once you recieve the Crop Seeds Crate, place it on the ground and destroy with an axe."/>
-            <property name="offer" value="Learn how to plant crops and then receive Farm Life crop seeds. Farming requires a Hoe and farmable dirt. (Note: Must be in a forest biome). Once you recieve the Crop Seeds Crate, place it on the ground and destroy with an axe."/>
+            <property name="description" value="Learn how to plant crops and then receive Farm Life crop seeds. Farming requires farmable dirt. Once you recieve the Crop Seeds Crate, place it on the ground and destroy with an axe."/>
+            <property name="offer" value="Learn how to plant crops and then receive Farm Life crop seeds. Farming requires farmable dirt. Once you recieve the Crop Seeds Crate, place it on the ground and destroy with an axe."/>
             <property name="icon" value="ui_game_symbol_quest"/>
             <property name="repeatable" value="true"/>
             <property name="category_key" value="quest"/>
             <property name="difficulty" value="easy"/>
             <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="meleeToolHoeIron" value="1" phase="1"/>
-            <objective type="BlockUpgrade" id="terrForestGround" value="1" phase="1"/>
+            <objective type="FetchKeep" id="farmPlotBlockPlayer" value="1" phase="1"/>
             <reward type="Quest" id="seeds_plant_seeds_2"/>
         </quest>
         <quest id="seeds_plant_seeds_2">
